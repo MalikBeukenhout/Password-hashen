@@ -26,8 +26,8 @@ Voeg register.php en login.php toe aan de root van je webserver.
 Zorg ervoor dat de PHP-bestanden verbinding maken met jouw database. Pas indien nodig de verbindingsinstellingen aan:
 $conn = new mysqli('localhost', 'root', '', 'login_system');
 
-Ga naar http://localhost/register.php en registreer een nieuwe gebruiker.
-Ga naar http://localhost/login.php en probeer in te loggen met dezelfde gegevens.
+Ga naar register.php en registreer een nieuwe gebruiker.
+Ga naar login.php en probeer in te loggen met dezelfde gegevens.
 
 
 Kun je het oorspronkelijke wachtwoord uit de hash achterhalen?
